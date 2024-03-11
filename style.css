@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+body{
+	font-family: "DM Serif Display", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #FF2079;
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.aboutpage{
+	padding-top: 35px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.aboutImage{
+	width: 100%;
+	box-shadow: 1px 1px 3px 3px black;
+}
+
+.aboutImageDiv{
+	width: 40%;
+}
+
+.picturetext{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.textbox{
+	width: 40%;
+}
+
+.gradient{
+	background-image: linear-gradient(black,#04005E);
+}
+
+.gallerytitle{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	padding-bottom: 2.5%;
+}
+
+.galleryDiv{
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.imageDiv:hover .imageClass{
+  opacity: 0.2;
+}
+
+.imageDiv:hover .hoverClass{
+  opacity: 1;
+}
+
+.imageDiv{
+	position: relative;
+}
+
+.hoverClass{
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+
+.text{
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.imageClass{
+	height: 75vh;
+	width: auto;
+	display: block;
+	opacity: 1;
+  transition: .5s ease;
+ 	backface-visibility: hidden;
+}
+
+.imageDescription{
+	padding-top: 30px;
+}
+
+.linkContainer{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+	height: auto;
+	gap: 35%;
+	font-size: 16pt;
+	font-weight: bold;
+	width: 100%;
+	padding-top: 2.5%;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: #FF2079;
+}
+
+.titleDiv{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  flex-direction: column;
+  padding-right: 20%;
+  padding-left: 20%;
+  text-align: center;
+}
+
+.byline{
+	border-bottom: 2px solid;
+	padding-bottom: 30px;
+}
+
+.descriptor{
+	padding-top: 2.5%;
+}
+
+.buttonDiv{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-bottom: 5%;
+}
+
+button{
+	background-color: #04005E;
+	border: 2px solid #FF2079;
+  	color: #FF2079;
+  	margin-top: 30px;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 20px;
+  	font-family: "DM Serif Display", sans-serif;
+  	font-weight: bolder;
+  	transition-duration: 0.4s;
+}
+
+button:hover{
+	background-color: #FF2079;
+	color: #04005E;
+}
